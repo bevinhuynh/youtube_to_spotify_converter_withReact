@@ -56,7 +56,7 @@
 }
 
 .spotify_name_logo {
-  width: 220px;
+  width: 300px;
   display: inline;
 }
 
@@ -71,7 +71,7 @@
 }
 
 .my_name {
-  margin-left: 300px;
+  margin-left: auto;
   display: inline;
   font-size: 40px;
 }
