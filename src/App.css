@@ -1,5 +1,5 @@
 #root {
-  max-width: 1280px;
+  max-width: 1500px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -12,19 +12,10 @@
   transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 2em rgb(181, 14, 14));
 }
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  filter: drop-shadow(0 0 2em rgb(51, 165, 51));
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -44,11 +35,52 @@
 .input-box {
   display: flex;
   margin: auto;
-  margin-bottom: 30px;
+  margin-bottom: 5px;
   width: 500px;
   height: 30px;
   font-size: 25px;
   color: aqua;
-  margin-top: 50px;
+  margin-top: 30px;
   /* border-radius: ; */
+}
+
+.subtitle {
+  padding-top: 25px;
+}
+
+.yt_name_logo {
+  width: 220px;
+  display: inline;
+  margin-right: 10px;
+
+}
+
+.spotify_name_logo {
+  width: 220px;
+  display: inline;
+}
+
+.media-logos {
+  align-items:  center;
+  display: flex;
+}
+
+.right_arrow_logo {
+  display: inline;
+  width: 220px;
+}
+
+.my_name {
+  margin-left: 300px;
+  display: inline;
+  font-size: 40px;
+}
+
+.githublogo {
+  width: 150px;
+  margin-left: 80px;
+}
+
+.githublogo:hover {
+  filter: drop-shadow(0 0 2em white);
 }
