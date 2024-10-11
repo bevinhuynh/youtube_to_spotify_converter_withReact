@@ -1,5 +1,5 @@
 #root {
-  max-width: 1500px;
+  /* max-width: 1500px; */
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -23,6 +23,16 @@
     animation: logo-spin infinite 20s linear;
   }
 }
+
+/* .rectangle{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: grey;
+  height: 175px;
+  z-index: 999;
+} */
 
 .card {
   padding: 2em;
@@ -49,14 +59,15 @@
 }
 
 .yt_name_logo {
-  width: 220px;
+  width: 180px;
   display: inline;
+  margin-left: 20em;
   margin-right: 10px;
 
 }
 
 .spotify_name_logo {
-  width: 300px;
+  width: 200px;
   display: inline;
 }
 
@@ -67,20 +78,64 @@
 
 .right_arrow_logo {
   display: inline;
-  width: 220px;
+  width: 140px;
 }
 
 .my_name {
   margin-left: auto;
   display: inline;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .githublogo {
-  width: 150px;
+  width: 130px;
   margin-left: 80px;
+  margin-right: 25em;
+  /* margin-right: 20px; */
 }
 
 .githublogo:hover {
   filter: drop-shadow(0 0 2em white);
+}
+
+.title{
+  display: flex;
+  align-items: center;
+  margin-left: 8.4em;
+  margin-top: 10px;
+}
+
+.description {
+  display: flex;
+  align-items: left;
+  margin-left: 10em;
+}
+
+
+
+.s1, .s2, .s3{
+  white-space: pre-wrap;
+  align-items: center;
+  display: flex;
+  margin-top: -10px;
+  margin-left: 6em;
+}
+
+.s3 {
+  margin-bottom: 5em;
+}
+
+.title_description {
+  margin-left: 100px;
+  width: 60em;
+  display: flex; 
+  flex-direction: column; 
+  align-items: flex-start; 
+  margin-bottom: 40px; 
+  background-color: rgb(70, 69, 69); 
+  color: white; 
+  padding: 20px; 
+  border-radius: 100px;
+  border-color: blue;
+  height: 20em;
 }
