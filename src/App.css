@@ -1,3 +1,4 @@
+
 #root {
   /* max-width: 1500px; */
   margin: 0 auto;
@@ -24,15 +25,113 @@
   }
 }
 
-/* .rectangle{
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  background-color: grey;
-  height: 175px;
-  z-index: 999;
-} */
+.spotify_logo:hover {
+  cursor: pointer;
+  filter: drop-shadow(0 0 2em rgb(51, 165, 51));
+}
+
+.youtube_logo:hover {
+  cursor: pointer;
+  filter: drop-shadow(0 0 3em rgb(181, 14, 14));
+}
+
+
+#row1 {
+  margin-top: 4em;
+  margin-bottom: 2em;
+}
+
+#description{
+  white-space: pre-wrap;
+  background-color: rgb(70, 69, 69);
+  width: 60em;
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  margin-bottom: 40px; 
+  color: white; 
+  padding: 20px; 
+  border-radius: 100px;
+  height: 20em; 
+  margin-left: 8em;
+}
+
+
+.right_arrow_step1 {
+  width: 10em;
+}
+#authorization {
+  width: 60em;
+  background-color: rgb(70, 69, 69);
+  height: 20em; 
+  margin-right: 8em;
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center;
+  border-radius: 100px;
+  
+}
+
+#auth_header {
+  font-size: 2.2em;
+  color: white;
+  
+}
+
+.spotify_logo {
+  width: 150px;
+}
+
+.youtube_logo {
+  width: 200px;
+}
+
+.container-fluid .row {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+
+.container-fluid .row #youtube-spotify.col{
+  display: flex;
+  align-items: center;
+  
+}
+
+.container-fluid .row #name-github.col {
+  display: flex;
+  justify-content: flex-end; 
+  align-items: center; /
+}
+
+.yt_name_logo {
+  width: 180px;
+  display: inline;
+  margin-left: 15em;
+  /* margin-right: 10px; */
+}
+
+.spotify_name_logo {
+  width: 200px;
+  display: inline;
+}
+
+.githublogo {
+  width: 130px;
+  margin-right: 15em;
+
+}
+
+.my_name {
+  margin-left: auto;
+  display: inline;
+  font-size: 40px;
+  color: white;
+  margin-right: 3em;
+}
+
 
 .card {
   padding: 2em;
@@ -51,91 +150,49 @@
   font-size: 25px;
   color: aqua;
   margin-top: 30px;
-  /* border-radius: ; */
 }
 
 .subtitle {
   padding-top: 25px;
 }
 
-.yt_name_logo {
-  width: 180px;
-  display: inline;
-  margin-left: 20em;
-  margin-right: 10px;
-
-}
-
-.spotify_name_logo {
-  width: 200px;
-  display: inline;
-}
-
-.media-logos {
-  align-items:  center;
-  display: flex;
-}
 
 .right_arrow_logo {
-  display: inline;
   width: 140px;
-}
-
-.my_name {
-  margin-left: auto;
-  display: inline;
-  font-size: 30px;
-}
-
-.githublogo {
-  width: 130px;
-  margin-left: 80px;
-  margin-right: 25em;
-  /* margin-right: 20px; */
 }
 
 .githublogo:hover {
   filter: drop-shadow(0 0 2em white);
 }
 
-.title{
-  display: flex;
-  align-items: center;
-  margin-left: 8.4em;
-  margin-top: 10px;
+.playlistname-box {
+  margin-top: 1.5em;
+  margin-bottom: 1.2em;
+  height: 3em;
+  width: 28em;
+  
 }
 
-.description {
-  display: flex;
-  align-items: left;
-  margin-left: 10em;
+.playlistdesc-box {
+  width: 28em;
+  height: 3em
+}
+
+#playlist-elements {
+  margin-bottom: 3em;
 }
 
 
-
-.s1, .s2, .s3{
-  white-space: pre-wrap;
-  align-items: center;
-  display: flex;
-  margin-top: -10px;
-  margin-left: 6em;
-}
-
-.s3 {
-  margin-bottom: 5em;
-}
-
-.title_description {
-  margin-left: 100px;
-  width: 60em;
+#converting-ui {
+  width: 10em;
+  background-color: rgb(70, 69, 69);
+  height: 20em; 
+  margin-right: 8em;
   display: flex; 
   flex-direction: column; 
-  align-items: flex-start; 
-  margin-bottom: 40px; 
-  background-color: rgb(70, 69, 69); 
-  color: white; 
-  padding: 20px; 
+  justify-content: center;
   border-radius: 100px;
-  border-color: blue;
-  height: 20em;
 }
+
+
+
