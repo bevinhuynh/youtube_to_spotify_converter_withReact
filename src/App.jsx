@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-        <div className="container-fluid sticky-top">  
+        <div className="container-fluid" id="header">  
             <div className="row"> 
               <div className="col" id="youtube-spotify">
                 <img src="../src/assets/youtube-name.svg" className="yt_name_logo" alt="YouTube logo" />

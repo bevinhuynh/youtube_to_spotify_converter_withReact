@@ -2,7 +2,7 @@
 #root {
   /* max-width: 1500px; */
   margin: 0 auto;
-  padding: 2rem;
+  /* padding: 2rem; */
   text-align: center;
 }
 
@@ -38,30 +38,38 @@
 
 #row1 {
   margin-top: 4em;
-  margin-bottom: 2em;
+  /* margin-bottom: 2em; */
 }
 
-#description{
+#description, #authorization{
   white-space: pre-wrap;
   background-color: rgb(70, 69, 69);
   width: 60em;
   display: flex; 
   flex-direction: column; 
-  justify-content: center; /* Center vertically */
-  align-items: center; /* Center horizontally */
+  justify-content: center; 
+  align-items: center; 
   margin-bottom: 40px; 
   color: white; 
   padding: 20px; 
   border-radius: 100px;
   height: 20em; 
+  margin-top: 2em;
+}
+
+#authorization {
+  margin-right: 10em;
+}
+#description {
   margin-left: 10em;
 }
+
 
 
 .right_arrow_step1 {
   width: 10em;
 }
-#authorization {
+/* #authorization {
   width: 60em;
   background-color: rgb(70, 69, 69);
   height: 20em; 
@@ -71,7 +79,7 @@
   justify-content: center;
   border-radius: 100px;
   
-}
+} */
 
 #auth_header {
   font-size: 2.2em;
@@ -85,6 +93,7 @@
 
 .youtube_logo {
   width: 200px;
+  margin-left: 10em;
 }
 
 .container-fluid .row {
@@ -179,8 +188,12 @@
   height: 3em
 }
 
-#playlist-elements {
- 
+#step2andstep3 {
+  background-color: rgb(103, 103, 103);
+}
+
+#playlist-elements, #converting-ui{
+  margin-top: 20px;
   width: 31em;
   background-color: rgb(70, 69, 69);
   height: 20em; 
@@ -197,8 +210,12 @@
   color: white
 }
 
-
 #converting-ui {
+  margin-right: 9.8em;
+}
+
+
+/* #converting-ui {
   width: 10em;
   background-color: rgb(70, 69, 69);
   height: 20em; 
@@ -208,7 +225,7 @@
   flex-direction: column; 
   justify-content: center;
   border-radius: 100px;
-}
+} */
 
 .convert {
   margin-top:0.51em;
@@ -225,4 +242,6 @@
  
 }
 
-
+#row1 {
+  background-color: rgb(103, 103, 103);
+}
