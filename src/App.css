@@ -54,7 +54,7 @@
   padding: 20px; 
   border-radius: 100px;
   height: 20em; 
-  margin-left: 8em;
+  margin-left: 10em;
 }
 
 
@@ -65,7 +65,7 @@
   width: 60em;
   background-color: rgb(70, 69, 69);
   height: 20em; 
-  margin-right: 8em;
+  margin-right: 10em;
   display: flex; 
   flex-direction: column; 
   justify-content: center;
@@ -157,6 +157,7 @@
 }
 
 
+
 .right_arrow_logo {
   width: 140px;
 }
@@ -169,17 +170,31 @@
   margin-top: 1.5em;
   margin-bottom: 1.2em;
   height: 3em;
-  width: 28em;
+  width: 23em;
   
 }
 
 .playlistdesc-box {
-  width: 28em;
+  width: 23em;
   height: 3em
 }
 
 #playlist-elements {
+ 
+  width: 31em;
+  background-color: rgb(70, 69, 69);
+  height: 20em; 
   margin-bottom: 3em;
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center;
+  border-radius: 100px;
+}
+
+.input-box {
+  height: 2.5em;
+  width: 27.5em;
+  color: white
 }
 
 
@@ -187,12 +202,27 @@
   width: 10em;
   background-color: rgb(70, 69, 69);
   height: 20em; 
-  margin-right: 8em;
+  margin-right: 10em;
+  margin-left: 1em;
   display: flex; 
   flex-direction: column; 
   justify-content: center;
   border-radius: 100px;
 }
 
+.convert {
+  margin-top:0.51em;
+  width: 15em;
+}
+
+#step2 {
+  margin-left: 40px;
+}
+
+#subtitle {
+  margin-top: 10px;
+  font-size: 1.8em;
+ 
+}
 
 
